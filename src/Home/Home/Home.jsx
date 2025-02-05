@@ -10,11 +10,13 @@ const Home = () => {
     return (
         <div className="space-y-16">
             <Banner></Banner>
-            <About></About>
-            <Skills></Skills>
-            <Education></Education>
-            <Project></Project>
-            <Contact></Contact>
+            <div className="w-11/12 mx-auto">
+                <About></About>
+                <Skills></Skills>
+                <Education></Education>
+                <Project></Project>
+                <Contact></Contact>
+            </div>
         </div>
     );
 };

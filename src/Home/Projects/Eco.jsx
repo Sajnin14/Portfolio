@@ -114,7 +114,7 @@ const Eco = () => {
 
 
                     <p className='font-bold text-lg'><span className=''>GitHub Repo Link:  </span>
-                        <a href="https://github.com/programming-hero-web-course1/b10-a9-authentication-Sajnin14" target='blank' className='text-blue-600 underline'>https://github.com/programming-hero-web-course1/b10-a9-authentication-Sajnin14 </a> </p>
+                        <a href="https://github.com/Sajnin14/EcoAdventura-9" target='blank' className='text-blue-600 underline'>https://github.com/Sajnin14/EcoAdventura-9 </a> </p>
 
                 </div>
 

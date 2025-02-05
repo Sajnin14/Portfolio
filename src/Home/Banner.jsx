@@ -1,7 +1,7 @@
 import { FaDownload, FaFacebookSquare, FaGithub, FaLinkedin } from 'react-icons/fa';
 import { motion } from "motion/react";
 import simage from '../assets/image1.jpeg';
-import resume from '../assets/sajninResume.pdf'
+import resume from '../assets/sajnindeveloper.pdf'
 import { easeOut } from 'motion';
 
 
@@ -15,7 +15,7 @@ const Banner = () => {
                         className="max-w-sm shadow-2xl m-4 rounded-lg p-4" />
                     
                 </div>
-                <div className=''>
+                <div className='p-4 md:p-0'>
                     <p className='text-6xl font-light mb-2'>Hello!</p>
                     <motion.h1 animate={{x: 100}} 
                     transition={{duration: 2, delay: 2, ease: easeOut, repeat: Infinity}}
@@ -25,7 +25,7 @@ const Banner = () => {
                     </p>
                     <div className='text-2xl text-[#2E2568] flex text-center gap-3 mb-5'>
                         <a href="https://github.com/Sajnin14" target='blank'><FaGithub></FaGithub> </a>
-                        <a href="www.linkedin.com/in/saima-sajnin-a93131296" target='blank'><FaLinkedin></FaLinkedin> </a>
+                        <a href="https://www.linkedin.com/in/sajnin-akhter-saima/" target='blank'><FaLinkedin></FaLinkedin> </a>
                         <a href="https://www.facebook.com/saima.sajnin.9/" target='blank'><FaFacebookSquare /> </a>
                     </div>
                     <button className="btn bg-[#2E2568] text-white"> <a href={resume} download>Download Resume</a><FaDownload></FaDownload> </button>

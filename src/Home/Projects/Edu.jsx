@@ -128,10 +128,10 @@ const Edu = () => {
 
 
                     <p className='font-bold text-lg'><span className=''>Client-side code GitHub repository: </span>
-                        <a href="https://github.com/programming-hero-web-course2/b10a11-client-side-Sajnin14" target='blank' className='text-blue-600 underline'>https://github.com/programming-hero-web-course2/b10a11-client-side-Sajnin14 </a> </p>
+                        <a href="https://github.com/Sajnin14/EduElevate-client-11" target='blank' className='text-blue-600 underline'>https://github.com/Sajnin14/EduElevate-client-11 </a> </p>
 
                     <p className='font-bold text-lg'><span className=''>Server-side code GitHub repository : </span>
-                        <a href="https://github.com/programming-hero-web-course2/b10a11-server-side-Sajnin14" target='blank' className='text-blue-600 underline'>https://github.com/programming-hero-web-course2/b10a11-server-side-Sajnin14 </a> </p>
+                        <a href="https://github.com/Sajnin14/EduElevate-server-11" target='blank' className='text-blue-600 underline'>https://github.com/Sajnin14/EduElevate-server-11 </a> </p>
 
                 </div>
 

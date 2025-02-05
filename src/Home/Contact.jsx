@@ -3,6 +3,7 @@ import { useRef } from 'react';
 import { BiLogoGmail } from 'react-icons/bi';
 import { FaFacebookSquare, FaPhoneAlt, FaWhatsappSquare } from 'react-icons/fa';
 import { FaLocationDot } from 'react-icons/fa6';
+import Swal from 'sweetalert2';
 
 const Contact = () => {
 
@@ -23,6 +24,11 @@ const Contact = () => {
                     console.log('FAILED...', error.text);
                 },
             );
+
+            Swal.fire({
+                title: "Your mail sent!",
+                icon: "success",
+              });
     };
 
 
@@ -64,7 +70,7 @@ const Contact = () => {
 
 
                 {/* for adding others contacting info */}
-                <div className='p-10 flex flex-col justify-center space-y-6 border-b-2 border-l-2 border-[#2E2568] mr-10 mt-5 shadow-2xl'>
+                <div className='p-2 md:p-8 lg:p-10 flex flex-col justify-center space-y-6 border-b-2 border-l-2 border-[#2E2568] mr-10 mt-5 shadow-2xl'>
                     <div className='flex items-center gap-3'>
                         <BiLogoGmail className='text-3xl text-red-700' />
                         <p>sajninsaima@gmail.com</p>
@@ -82,7 +88,7 @@ const Contact = () => {
 
                     <div className='flex items-center gap-3'>
                         <FaFacebookSquare className='text-2xl text-blue-700' />
-                        <p>https://www.facebook.com/saima.sajnin.9/</p>
+                        <p>/saima.sajnin.9/</p>
                     </div>
 
                     <div className='flex items-center gap-3'>

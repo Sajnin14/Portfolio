@@ -7,7 +7,7 @@ const Education = () => {
         <div id='education'>
             <h3 className="text-center text-4xl font-bold text-[#2E2568] my-4">Education</h3>
 
-            <div className="mt-10 w-1/2 mx-auto flex items-center gap-4 border border-[#2E2568] rounded-lg shadow-lg">
+            <div className="mt-10 w-3/4 mx-auto flex items-center gap-4 border border-[#2E2568] md:px-16 rounded-lg shadow-lg">
                 <div>
                     <img src={graduation} className='rounded-lg w-32 m-2' />
                 </div>
@@ -20,7 +20,7 @@ const Education = () => {
             </div>
 
 
-            <div className="mt-10 w-1/2 mx-auto flex items-center justify-around border border-[#2E2568] rounded-lg shadow-lg">
+            <div className="mt-10 w-3/4 mx-auto flex items-center justify-around border border-[#2E2568] p-2 rounded-lg shadow-lg">
 
                 <div>
                     <h3 className="text-xl font-semibold">Higher Secondary Certificate</h3>
@@ -34,7 +34,7 @@ const Education = () => {
             </div>
 
 
-            <div className="my-10 w-1/2 mx-auto flex gap-4 items-center border border-[#2E2568] rounded-lg shadow-lg">
+            <div className="my-10 w-3/4 mx-auto flex gap-4 items-center md:px-16 border border-[#2E2568] rounded-lg shadow-lg">
                 <div>
                     <img src={secondary} className='rounded-lg w-36 m-2' />
                 </div>
