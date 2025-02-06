@@ -34,10 +34,10 @@ const Contact = () => {
 
     return (
         <div id='contact'>
-            <h3 className="text-center text-4xl font-bold text-[#2E2568] my-4">Contact Me</h3>
+            <h3 className="text-center text-4xl font-bold text-[#2E2568] my-20">Contact Me</h3>
 
             {/* for direct sending mail */}
-            <div className='my-7 grid grid-cols-1 lg:grid-cols-2 gap-12'>
+            <div className='mb-7 grid grid-cols-1 lg:grid-cols-2 gap-12'>
                 <form ref={form} onSubmit={sendEmail}>
 
                     <div className="form-control">

@@ -15,8 +15,8 @@ import c2 from '../assets/c++.png';
 const Skills = () => {
     return (
         <div id='skills'>
-            <h3 className="text-center text-4xl font-bold text-[#2E2568] my-4">Professional Skills</h3>
-            <p className='w-1/2 mx-auto text-center'>Passionate about creating responsive, interactive websites and scalable applications using modern web technologies.</p>
+            <h3 className="text-center text-4xl font-bold text-[#2E2568] mt-20">Professional Skills</h3>
+            <p className='mt-4 w-1/2 mx-auto text-center'>Passionate about creating responsive, interactive websites and scalable applications using modern web technologies.</p>
 
             <div className="mt-20 grid grid-cols-2 md:grid-cols-4 lg:grid-cols-5 gap-5">
 

@@ -10,6 +10,7 @@ import Home from './Home/Home/Home';
 import Edu from './Home/Projects/Edu';
 import Flick from './Home/Projects/Flick';
 import Eco from './Home/Projects/Eco';
+import MicroEarn from './Home/Projects/MicroEarn';
 
 const router = createBrowserRouter([
   {
@@ -19,6 +20,10 @@ const router = createBrowserRouter([
       {
         path: '/',
         element: <Home></Home>
+      },
+      {
+        path: '/micro',
+        element: <MicroEarn></MicroEarn>,
       },
       {
         path: '/edu',

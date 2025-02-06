@@ -7,7 +7,7 @@ const About = () => {
             </div>
 
             <div className="md:w-3/5 p-4">
-                <h3 className="text-4xl font-bold text-[#2E2568] my-3">About Me</h3>
+                <h3 className="text-4xl font-bold text-[#2E2568] my-4">About Me</h3>
                 <p> <span className="font-semibold">Hi, I&#8217;m Sajnin Akhter Saima</span>, a passionate frontend web developer dedicated to crafting beautiful, user-friendly websites and applications. I specialize in transforming ideas into interactive, responsive, and engaging digital experiences using modern technologies like HTML, CSS, JavaScript, and React. With an eye for design and a commitment to clean code, I aim to create web solutions that not only look great but perform seamlessly. Let’s build something amazing together!</p>
 
                 <div className="my-4 text-lg">

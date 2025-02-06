@@ -5,7 +5,7 @@ import higher2 from '../assets/Dinajpur-Board.png';
 const Education = () => {
     return (
         <div id='education'>
-            <h3 className="text-center text-4xl font-bold text-[#2E2568] my-4">Education</h3>
+            <h3 className="text-center text-4xl font-bold text-[#2E2568] my-20">Education</h3>
 
             <div className="mt-10 w-3/4 mx-auto flex items-center gap-4 border border-[#2E2568] md:px-16 rounded-lg shadow-lg">
                 <div>
